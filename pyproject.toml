@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "whisper-demo"
+version = "0.1.0"
+description = ""
+authors = ["tebukuro <58774766+tebukurokun@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.1"
+torchvision = "^0.20.1"
+llvmlite = "^0.43.0"
+numba = "^0.60.0"
+openai-whisper = "^20240930"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
